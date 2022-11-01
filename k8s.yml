@@ -22,7 +22,7 @@ spec:
         imagePullPolicy: Always
         env:
             - name: PORT
-              value: 80
+              value: "80"
 ---
 kind: Service
 apiVersion: v1
